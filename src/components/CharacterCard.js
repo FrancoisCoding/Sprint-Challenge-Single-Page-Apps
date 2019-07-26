@@ -9,7 +9,6 @@ import {
 } from "reactstrap";
 
 export default function CharacterCard(props) {
-  console.log("characterCard props", props.data);
   return (
     <div>
       <Card>
