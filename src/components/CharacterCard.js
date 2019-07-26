@@ -24,6 +24,12 @@ export default function CharacterCard(props) {
         </CardSubtitle>
         <CardText>Status : {props.data.status}</CardText>
       </CardBody>
+      {/* <Link to="/locations">
+        <button>Locations</button>
+      </Link>
+      <Link to="/locations">
+        <button>Locations</button>
+      </Link> */}
     </Card>
   );
 }
