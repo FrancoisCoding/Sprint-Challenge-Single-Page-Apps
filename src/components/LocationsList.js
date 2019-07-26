@@ -18,11 +18,9 @@ export default function Locationslist(props) {
 
   return (
     <section className="character-list grid-view">
-      <h2>
-        {locations.map(locations => (
-          <LocationCard data={locations} />
-        ))}
-      </h2>
+      {locations.map(locations => (
+        <LocationCard data={locations} />
+      ))}
     </section>
   );
 }

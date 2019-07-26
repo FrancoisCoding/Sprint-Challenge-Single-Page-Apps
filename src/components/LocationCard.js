@@ -15,15 +15,13 @@ export default function LocationCard(props) {
   console.log("LocationCard props", props.data);
   console.log("LocationCard props", props.data);
   return (
-    <div>
-      <Card>
-        <CardBody>
-          <CardTitle>Name : {props.data.name}</CardTitle>
-          <CardSubtitle>
-            Type : {props.data.type} Dimension : {props.data.dimension}
-          </CardSubtitle>
-        </CardBody>
-      </Card>
-    </div>
+    <Card>
+      <CardBody>
+        <CardTitle>Name : {props.data.name}</CardTitle>
+        <CardSubtitle>
+          Type : {props.data.type} Dimension : {props.data.dimension}
+        </CardSubtitle>
+      </CardBody>
+    </Card>
   );
 }
