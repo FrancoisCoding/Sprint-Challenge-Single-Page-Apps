@@ -14,7 +14,6 @@ export default function CharacterList(props) {
   return (
     <section className="character-list grid-view">
       <h2>
-        {" "}
         {characters.map(character => (
           <CharacterCard data={character} />
         ))}
